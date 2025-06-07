@@ -1,0 +1,47 @@
+{
+  "name": "jr-components",
+  "version": "1.0.0",
+  "description": "This is a Web Component Repository base on Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": "git+https://github.com/ker909/ow-ui.git",
+  "keywords": [],
+  "author": "WANG KE <ker909@foxmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ker909/ow-ui/issues"
+  },
+  "homepage": "https://github.com/ker909/ow-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/plugin-transform-runtime": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "vue": "2.5",
+    "vue-loader": "15",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "2.5",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  },
+  "peerDependencies": {
+    "vue": "2.5",
+    "vue-template-compiler": "2.5",
+    "element-ui": "^2.15.14",
+    "overlayscrollbars": "1.13.1",
+    "overlayscrollbars-vue": "0.2.2"
+  },
+  "dependencies": {
+    "vue": "2.5",
+    "vue-template-compiler": "2.5",
+    "element-ui": "^2.15.14",
+    "overlayscrollbars": "1.13.1",
+    "overlayscrollbars-vue": "0.2.2"
+  }
+}
