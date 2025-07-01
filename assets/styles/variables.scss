@@ -1,0 +1,126 @@
+// common-size
+$medium-size-font-size: 14px;
+$medium-size-padding: 20px;
+$medium-size-height: 36px;
+$medium-size-line-height: 34px;
+
+$small-size-font-size: 12px;
+$small-size-padding: 15px;
+$small-size-height: 32px;
+$small-size-line-height: 30px;
+
+$mini-size-font-size: 12px;
+$mini-size-padding: 15px;
+$mini-size-height: 28px;
+$mini-size-line-height: 26px;
+// base-color
+$white: #FFFFFF;
+$black: #000000;
+$dark: #455866;
+$blue: #3A71A8;
+$red: #C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow: #FEC171;
+
+$male-color: #428BCA;
+$female-color: #E06282;
+
+$hover-color: #409EFF;
+$warning-color: #E6A23C;
+$danger-color: #F56C6C;
+$success-color: #67C23A;
+// text-color
+$text-color-dark: #303133;
+$text-color-base: #606266;
+$text-color-light: #909399;
+$text-color-lighter: #C0C4CC;
+
+// text-size
+$text-large: 18px;
+$text-large-sub: 17px;
+$text-normal: 16px;
+$text-normal-sub: 15px;
+$text-small: 14px;
+$text-small-sub: 13px;
+$text-mini: 12px;
+// border-color
+$border-color-dark: #DCDFE6;
+$border-color-base: #E4E7ED;
+$border-color-light: #EBEEF5;
+$border-color-lighter: #F2F6FC;
+// border-radius
+$border-radius-large: 10px;
+$border-radius-normal: 5px;
+$border-radius-small: 4px;
+$border-radius-mini: 3px;
+$border-radius-circle: 50%;
+$border-radius-none: 0;
+// gap
+$gap-large: 30px;
+$gap-large-sub: 20px;
+$gap: 15px;
+$gap-normal: 15px;
+$gap-normal-sub: 12px;
+$gap-small: 10px;
+$gap-small-sub: 8px;
+$gap-mini: 5px;
+// shadow
+$shadow-dark: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .12);
+$shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+$shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+$shadow-lighter: 0 1px 4px rgba(0, 21, 41,.08);
+// background
+$background-color-dark: #DCDFE6;
+$background-color-base: #E4E7ED;
+$background-color-light: #f2f2f2;
+$background-color-lighter: #f8f8f8;
+// transition
+$transition-all: all .3s cubic-bezier(.645,.045,.355,1);
+$transition-width: width .3s cubic-bezier(.645,.045,.355,1);
+$transition-min-width: min-width .3s cubic-bezier(.645,.045,.355,1);
+$transition-color: color .5s cubic-bezier(.645,.045,.355,1), background-color .5s cubic-bezier(.645,.045,.355,1);
+// sidebar
+$menuText: #bfcbd9;
+$menuActiveText: #409EFF;
+$subMenuActiveText: #f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg: #304156;
+$menuHover: #263445;
+$sidebarTitle: #ffffff;
+
+$menuLightBg: #ffffff;
+$menuLightHover: #f0f1f5;
+$sidebarLightTitle: #001529;
+
+$subMenuBg: #1f2d3d;
+$subMenuHover: #001528;
+
+$sideBarWidth: 200px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  menuLightBg: $menuLightBg;
+  menuLightHover: $menuLightHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  sidebarTitle: $sidebarTitle;
+  sidebarLightTitle: $sidebarLightTitle
+}
+
+// 采集于 https://huaban.com/pins/4390817244/
+// 色卡 1
+$color-card-color1: #3c7fe9;
+$color-card-color2: #78adff;
+$color-card-color3: #ff312e;
+$color-card-color4: #2a3d56;
+$color-card-color5: #95a9c9;
+$color-card-color6: #e7f0ff;

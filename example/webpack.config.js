@@ -11,6 +11,8 @@ module.exports = {
   },
   resolve: {
     alias: {
+      '@': path.resolve(__dirname, '../'),
+      'ow-ui': path.resolve(__dirname, '../'),
       vue$: 'vue/dist/vue.esm.js' // 确保使用完整版 Vue
     },
     extensions: ['.js', '.vue']
@@ -33,6 +35,22 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['vue-style-loader', 'css-loader']
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              additionalData: `@use "@/assets/styles/variables" as *;`, // 自动注入
+              sassOptions: {
+                includePaths: [path.resolve(__dirname, '../')]
+              }
+            }
+          }
+        ]
       }
     ]
   },

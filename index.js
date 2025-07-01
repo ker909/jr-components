@@ -1,8 +1,8 @@
 // index.js
 import Button from './packages/button'
-import Scroll from './packages/scroll'
+import Board from './packages/Board';
 
-const components = [Button, Scroll]
+const components = [Button, Board]
 
 const install = function (Vue) {
   components.forEach(component => {
@@ -16,6 +16,5 @@ const install = function (Vue) {
 
 export default {
   install,
-  Button,
-  Scroll,
+  ...components
 }
