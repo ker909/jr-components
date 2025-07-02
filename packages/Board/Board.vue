@@ -39,8 +39,7 @@
                 </div>
               </div>
               <div class="board-label f-aside t-center">
-                <div :class="size == 'large' ? 't-line-3' : size == 'medium' ? 't-line-2' : 't-overflow'">{{ item[labelName]}}
-                </div>
+                <div :class="size == 'large' ? 't-line-3' : size == 'medium' ? 't-line-2' : 't-overflow'">{{ item[labelName]}}</div>
               </div>
             </div>
           </div>
