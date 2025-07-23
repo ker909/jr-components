@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>组件库测试</h1>
-    <ow-button style="height:300px;">
-    	dsfasdfasdf asdf as
-    </ow-button>
+    <ow-scroll>
+      <ow-board :model="[{ label: '11111' }, { label: '22222' }]" :height="1000"></ow-board>
+    </ow-scroll>
   </div>
 </template>
 <script>

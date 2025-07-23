@@ -1,8 +1,9 @@
 // index.js
 import Board from './packages/Board';
 import Field from './packages/Field';
+import Scroll from './packages/Scroll';
 
-const components = [Board, Field]
+const components = [Board, Field, Scroll]
 
 const install = function (Vue) {
   components.forEach(component => {
