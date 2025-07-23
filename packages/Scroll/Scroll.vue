@@ -1,7 +1,7 @@
 <template>
 	<overlay-scrollbars ref="scroll" class="ow-scroll" :options="myOptions">
     <div class="scroll-inner" ref="inner" :style="myStyle">
-      <div v-if="!showEmpty && load && reverse" class="t-mini t-placeholder t-center" style="padding: 5px 10px 10px;">
+      <div v-if="!showEmpty && load && reverse" class="t-mini t-placeholder t-center" style="padding:5px 10px 10px;">
         <span v-if="loading"><i class="el-icon-loading"></i> 正在加载</span>
         <span v-else-if="complete">— 没有更多了 —</span>
         <el-button v-else class="t-hover clean-btn" type="text" @click="handleLoad">加载更多</el-button>
